@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import HeroSection from './components/HeroSection'
 import Services from './components/Services';
+import Works from './components/Works'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <div className="max-w-5xl w-11/12 mx-auto">
         <HeroSection />
         <Services/>
+        <Works/>
         </div>
       </div>
     </>
