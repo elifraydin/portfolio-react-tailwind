@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import HeroSection from './components/HeroSection'
+import Services from './components/Services';
 
 function App() {
 
@@ -37,7 +38,10 @@ function App() {
       </button>
 
       <div className='font-inter bg:white dark:bg-slate-900'>
+      <div className="max-w-5xl w-11/12 mx-auto">
         <HeroSection />
+        <Services/>
+        </div>
       </div>
     </>
   )
